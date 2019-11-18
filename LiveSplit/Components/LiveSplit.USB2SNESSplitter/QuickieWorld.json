@@ -1,0 +1,196 @@
+{
+  "game": "Quickie World",
+  "autostart": {
+    "active": "0"
+  },
+  "categories": [
+    {
+      "name": "Any%",
+      "splits": [
+	    "Goomba Jam",
+        "Run Forest",
+        "Glitchcat Lake",
+        "Terminal Velocity",
+        "Linkdead Shed",
+        "Tower of Power",
+        "Color Code Cove",
+        "Chuck City",
+        "Inferno",
+        "Yellow Dwarf",
+        "Everything is Fine",
+        "Sawrfing Castle"      
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "name": "Goomba Jam",
+      "address": "0x1F2E",
+      "value": "0x0",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "Run Forest",
+      "address": "0x1F2E",
+      "value": "0x1",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "Glitchcat Lake",
+      "address": "0x1F2E",
+      "value": "0x2",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    },
+    {
+      "name": "Terminal Velocity",
+      "address": "0x1F2E",
+      "value": "0x3",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    },
+    {
+      "name": "Linkdead Shed",
+      "address": "0x1F2E",
+      "value": "0x4",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "Tower of Power",
+      "address": "0x1F2E",
+      "value": "0x5",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+
+    },
+    {
+      "name": "Color Code Cove",
+      "address": "0x1F2E",
+      "value": "0x6",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "Chuck City",
+      "address": "0x1F2E",
+      "value": "0x7",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    },
+    {
+      "name": "Inferno",
+      "address": "0x1F2E",
+      "value": "0x8",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "Yellow Dwarf",
+      "address": "0x1F2E",
+      "value": "0x9",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    },
+    {
+      "name": "Everything is Fine",
+      "address": "0x1F2E",
+      "value": "0xA",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    },
+    {
+      "name": "Sawrfing Castle",
+      "address": "0x1F2E",
+      "value": "0xB",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    }
+  ]
+}
