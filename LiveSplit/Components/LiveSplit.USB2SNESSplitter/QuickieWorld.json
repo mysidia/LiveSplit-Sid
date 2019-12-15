@@ -1,7 +1,10 @@
 {
   "game": "Quickie World",
   "autostart": {
-    "active": "0"
+    "active": "1",
+	"address": "0x0db4",
+	"value": "0x04",
+	"type": "eq"
   },
   "categories": [
     {
@@ -19,6 +22,26 @@
         "Yellow Dwarf",
         "Everything is Fine",
         "Sawrfing Castle"      
+      ]
+    },
+    {
+      "name": "100%",
+      "splits": [
+	    "Goomba Jam",
+        "Run Forest",
+        "Glitchcat Lake",
+        "Terminal Velocity",
+        "Linkdead Shed",
+        "Tower of Power",
+        "Color Code Cove",
+        "Chuck City",
+        "Inferno",
+        "Yellow Dwarf",
+        "Everything is Fine",
+        "Sawrfing Castle",
+		"Barb's Shiphole",
+		"Rainbow Road",
+		"White Moth Lair"		
       ]
     }
   ],
@@ -191,6 +214,49 @@
 			   "type"  : "gt"
 		  }
 	  ]	  
+    },
+    {
+      "name": "Barb's Shiphole",
+      "address": "0x1F2E",
+      "value": "0xC",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    },
+    {
+      "name": "Rainbow Road",
+      "address": "0x1F2E",
+      "value": "0xD",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    },
+    {
+      "name": "White Moth Lair",
+      "address": "0x1F2E",
+      "value": "0xE", 
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
     }
+	
   ]
 }
