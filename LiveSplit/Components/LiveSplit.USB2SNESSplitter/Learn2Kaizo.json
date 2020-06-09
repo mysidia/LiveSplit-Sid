@@ -1,0 +1,1068 @@
+{
+  "game": "Learn2Kaizo",
+  "autostart": {
+    "active": "1",
+	"address": "0x0db4",
+	"value": "0x04",
+	"type": "eq"
+  },
+  "categories": [
+    {
+      "name": "100%",
+      "splits": [
+        "-The Simple Jump",
+        "-Chuck Gate",
+        "-Reversed Chuck Gate",
+        "-Kaizo 1 Homage",
+        "-Timing is Key",
+        "-Skull Raft Jumps",
+        "-The Discoshell",
+        "-Mind the Gap",
+        "-Press Down to Win",
+        "{1-10} Test#1",
+        "-Holding the Balance",
+        "-The Betrayer",
+        "-Layer 2 Smash Slow",
+        "-Baby Rhinos are Loose",
+        "-Mini Star",
+        "-The Bowser Statue",
+        "-Frame Perfect",
+        "-The Shelljump",
+        "-Two Spinjumps",
+        "{11-20} Test#2",
+        "-Timed Platforms",
+        "-The Block Dupe",
+        "-Mushroom and Spin",
+        "-The Torpedo",
+        "-Midair Thwomp",
+        "-Rotating Platforms",
+        "-The Eerie",
+        "-Bubble Jump",
+        "-Precise Beans",
+        "{21-30} Test#3",
+        "{21-30} Test#3",
+        "-Flying Item Boxes",
+        "-The Springjump",
+        "-Item Swimming",
+        "-Cramped up Space",
+        "-The Fishin Boo",
+        "-Tight Spins",
+        "-Dino Rhinos",
+        "-Dolphins",
+        "-Wallrunning is Fun",
+        "{31-40} Test#4",
+        "-Puntin Chucks Football",
+        "-The Double Shelljump",
+        "-Janked up Sumo Bros",
+        "-Underwater Fishin Boo",
+        "-Midair Thwimp",
+        "-Slippery Moles",
+        "-The Go Around",
+        "-Falling Spike",
+        "-Janky Falling Platforms",
+        "{41-50} Test#5",
+        "-The Keyjump",
+        "-The Flying Torpedo",
+        "-The Midair Goomba Jump",
+        "-P-Speed Midair",
+        "-Midair POW",
+        "-The Midair Springjump",
+        "-The Midair Shelljump",
+        "-Yump",
+        "-Super Duper Glitch Jump",
+        "{51-60} Test#6",
+        "-Floaty Shells",
+        "-Duck Flight",
+        "-Cape Cancel",
+        "-Vine Flight",
+        "-The Spinflight",
+        "-Door Flight",
+        "-Controlled Flying",
+        "-The Sticky Fly",
+        "{61-70} Final Test"
+      ]
+    },
+  ],
+  "definitions": [
+    {
+      "name": "-The Simple Jump",
+      "address": "0x1F2E",
+      "value": "0x0",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },  
+    {
+      "name": "-Chuck Gate",
+      "address": "0x1F2E",
+      "value": "0x1",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },  
+    {
+      "name": "-Reversed Chuck Gate",
+      "address": "0x1F2E",
+      "value": "0x2",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },  
+    {
+      "name": "-Kaizo 1 Homage",
+      "address": "0x1F2E",
+      "value": "0x3",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },  
+    {
+      "name": "-Timing is Key",
+      "address": "0x1F2E",
+      "value": "0x4",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },  
+    {
+      "name": "-Skull Raft Jumps",
+      "address": "0x1F2E",
+      "value": "0x5",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },  
+    {
+      "name": "-The Discoshell",
+      "address": "0x1F2E",
+      "value": "0x6",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },  
+    {
+      "name": "-Mind the Gap",
+      "address": "0x1F2E",
+      "value": "0x6",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },  
+    {
+      "name": "-Press Down to Win",
+      "address": "0x1F2E",
+      "value": "0x7",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },  	
+    {
+      "name": "{1-10} Test#1",
+      "address": "0x1F2E",
+      "value": "0x8",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Holding the Balance",
+      "address": "0x1F2E",
+      "value": "0x9",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },	
+    {
+      "name": "-The Betrayer",
+      "address": "0x1F2E",
+      "value": "0xA",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },	
+    {
+      "name": "-Layer 2 Smash Slow",
+      "address": "0x1F2E",
+      "value": "0xB",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },	
+    {
+      "name": "-Baby Rhinos are Loose",
+      "address": "0x1F2E",
+      "value": "0xC",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },	
+    {
+      "name": "-Mini Star",
+      "address": "0x1F2E",
+      "value": "0xD",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },	
+    {
+      "name": "-The Bowser Statue",
+      "address": "0x1F2E",
+      "value": "0xE",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },		
+    {
+      "name": "-Frame Perfect",
+      "address": "0x1F2E",
+      "value": "0xF",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-The Shelljump",
+      "address": "0x1F2E",
+      "value": "0x10",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Two Spinjumps",
+      "address": "0x1F2E",
+      "value": "0x11",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },							
+    {
+      "name": "{11-20} Test#2",
+      "address": "0x1F2E",
+      "value": "0x12",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Timed Platforms",
+      "address": "0x1F2E",
+      "value": "0x13",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-The Block Dupe",
+      "address": "0x1F2E",
+      "value": "0x14",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Mushroom and Spin",
+      "address": "0x1F2E",
+      "value": "0x15",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },	
+    {
+      "name": "-The Torpedo",
+      "address": "0x1F2E",
+      "value": "0x16",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Midair Thwomp",
+      "address": "0x1F2E",
+      "value": "0x17",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },	
+    {
+      "name": "-Rotating Platforms",
+      "address": "0x1F2E",
+      "value": "0x18",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-The Eerie",
+      "address": "0x1F2E",
+      "value": "0x19",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Bubble Jump",
+      "address": "0x1F2E",
+      "value": "0x1A",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Precise Beans",
+      "address": "0x1F2E",
+      "value": "0x1B",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },			
+    {
+      "name": "{21-30} Test#3",
+      "address": "0x1F2E",
+      "value": "0x1C",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    },
+    {
+      "name": "{21-30} Test#3",
+      "address": "0x1F2E",
+      "value": "0x1C",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    },	
+    {
+      "name": "-Flying Item Boxes",
+      "address": "0x1F2E",
+      "value": "0x1D",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    },
+    {
+      "name": "-The Springjump",
+      "address": "0x1F2E",
+      "value": "0x1E",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    },
+    {
+      "name": "-Item Swimming",
+      "address": "0x1F2E",
+      "value": "0x1F",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    },
+    {
+      "name": "-Cramped up Space",
+      "address": "0x1F2E",
+      "value": "0x20",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    },
+    {
+      "name": "-The Fishin Boo",
+      "address": "0x1F2E",
+      "value": "0x21",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    },
+    {
+      "name": "-Tight Spins",
+      "address": "0x1F2E",
+      "value": "0x22",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    },
+    {
+      "name": "-Dino Rhinos",
+      "address": "0x1F2E",
+      "value": "0x23",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    },					
+    {
+      "name": "-Dolphins",
+      "address": "0x1F2E",
+      "value": "0x24",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    },
+    {
+      "name": "-Wallrunning is Fun",
+      "address": "0x1F2E",
+      "value": "0x25",
+      "type": "gte",
+	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]	  
+    },	
+    {
+      "name": "{31-40} Test#4",
+      "address": "0x1F2E",
+      "value": "0x26",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Puntin Chucks Football",
+      "address": "0x1F2E",
+      "value": "0x27",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },	
+    {
+      "name": "-The Double Shelljump",
+      "address": "0x1F2E",
+      "value": "0x28",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Janked up Sumo Bros",
+      "address": "0x1F2E",
+      "value": "0x29",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Underwater Fishin Boo",
+      "address": "0x1F2E",
+      "value": "0x2B",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Midair Thwimp",
+      "address": "0x1F2E",
+      "value": "0x2C",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Slippery Moles",
+      "address": "0x1F2E",
+      "value": "0x2D",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-The Go Around",
+      "address": "0x1F2E",
+      "value": "0x2E",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Falling Spike",
+      "address": "0x1F2E",
+      "value": "0x2F",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Janky Falling Platforms",
+      "address": "0x1F2E",
+      "value": "0x30",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "{41-50} Test#5",
+      "address": "0x1F2E",
+      "value": "0x31",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-The Keyjump",
+      "address": "0x1F2E",
+      "value": "0x32",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },	
+    {
+      "name": "-The Flying Torpedo",
+      "address": "0x1F2E",
+      "value": "0x33",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-The Midair Goomba Jump",
+      "address": "0x1F2E",
+      "value": "0x34",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-P-Speed Midair",
+      "address": "0x1F2E",
+      "value": "0x35",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Midair POW",
+      "address": "0x1F2E",
+      "value": "0x36",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-The Midair Springjump",
+      "address": "0x1F2E",
+      "value": "0x37",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-The Midair Shelljump",
+      "address": "0x1F2E",
+      "value": "0x38",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Yump",
+      "address": "0x1F2E",
+      "value": "0x39",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Super Duper Glitch Jump",
+      "address": "0x1F2E",
+      "value": "0x3A",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "{51-60} Test#6",
+      "address": "0x1F2E",
+      "value": "0x3B",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Floaty Shells",
+      "address": "0x1F2E",
+      "value": "0x3C",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Duck Flight",
+      "address": "0x1F2E",
+      "value": "0x3D",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Cape Cancel",
+      "address": "0x1F2E",
+      "value": "0x3E",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Vine Flight",
+      "address": "0x1F2E",
+      "value": "0x3F",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-The Spinflight",
+      "address": "0x1F2E",
+      "value": "0x40",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Door Flight",
+      "address": "0x1F2E",
+      "value": "0x41",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-Controlled Flying",
+      "address": "0x1F2E",
+      "value": "0x42",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "-The Sticky Fly",
+      "address": "0x1F2E",
+      "value": "0x43",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    },
+    {
+      "name": "{61-70} Final Test",
+      "address": "0x1F2E",
+      "value": "0x44",
+      "type": "gte",
+	  	  "more" : [
+	      {
+		       "name" : "goalTape",
+			   "address" : "0x1493",
+			   "value" : "0x0",
+			   "type"  : "gt"
+		  }
+	  ]
+    }
+  ]
+}
