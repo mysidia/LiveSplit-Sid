@@ -196,6 +196,8 @@ namespace LiveSplit.UI.Components
             {
                 _usb2snes.Disconnect();
             }
+            _state.OnReset -= _state_OnReset;
+            _state.OnStart -= _state_OnStart;            
         }
 
         public override Control GetSettingsControl(LayoutMode mode)
