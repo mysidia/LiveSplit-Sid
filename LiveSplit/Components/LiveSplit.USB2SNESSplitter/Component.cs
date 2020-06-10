@@ -77,7 +77,7 @@ namespace LiveSplit.UI.Components
             _inasyncUpdate = false;
             _error = false;
 
-            _update_timer = new Timer() { Interval = /*33*/ 1000 };
+            _update_timer = new Timer() { Interval = /*33*/ 500 };
             _update_timer.Tick += (sender, args) => UpdateSplits_A();
             _update_timer.Enabled = true;
 
