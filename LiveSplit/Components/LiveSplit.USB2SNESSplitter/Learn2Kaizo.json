@@ -805,8 +805,8 @@
       "type": "gte",
 	  	  "more" : [
 	      {
-		       "name" : "goalTape",
-			   "address" : "0x1493",
+		       "name" : "keyHole",
+			   "address" : "0x1434",
 			   "value" : "0x0",
 			   "type"  : "gt"
 		  }
@@ -931,8 +931,8 @@
       "type": "gte",
 	  	  "more" : [
 	      {
-		       "name" : "goalTape",
-			   "address" : "0x1493",
+		       "name" : "keyHole",
+			   "address" : "0x1434",
 			   "value" : "0x0",
 			   "type"  : "gt"
 		  }
